@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+html {
+	height: 100%;
+}
+body {
+	height: 200%;
+	background-color: #9387ab;
+	font: 400 10px "Lato", sans-serif;
+	text-align: center;
+}
+.header {
+	width: 200%;
+	height: 309px;
+	background: lightpink;
+	opacity: 0.95;
+	overflow: hidden;
+	-webkit-box-shadow: #333 1px 3px 4px;
+	-moz-box-shadow: #333 1px 3px 4px;
+	box-shadow: #333 1px 3px 4px;
+}
+svg.line-top {
+	width: 100%;
+	background-color: black;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	margin: 0;
+	padding: 10px 0 10px 0;
+	width: 25%;
+	height: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 3.5px;
+}
+svg{
+  width: 25%;
+  display:block;
+  margin: 0 auto;
+  animation: bounce 1s ease-in-out -5s both infinite;
+}
+@keyframes bounce{
+  50% {transform:translateY(20px);}
+  100%{transform:translateY(0px);}
+}
